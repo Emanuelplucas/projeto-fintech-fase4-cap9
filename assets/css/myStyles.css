@@ -1,0 +1,68 @@
+body {
+    background-color: #fff;
+}
+
+.pag {
+    min-height: 100vh;
+    gap: 10px;
+    align-items: center;
+}
+
+.baner {
+    max-width: 40vw;
+    background-image: linear-gradient(rgba(4, 9, 30, .3), rgba(4, 9, 30, .9)), url(../images/pexels-karolina-grabowska-5900233.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 550px;
+    max-width: 450px;
+    min-width: 450px;
+
+}
+
+
+.formulario {
+    width: 350px;
+    height: 550px;
+    background-color: #d4d3d042
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: small;
+    margin-left: 10px;
+}
+
+
+.titulo-login {
+    font-size: 300%;
+}
+
+.fintech {
+    font-family: "Kode Mono", monospace;
+    color: #29CE00;
+}
+
+
+
+
+@media (min-width: 856px) {
+    .fintech {
+        display: none;
+    }
+
+    .formulario {
+        min-width: 350px;
+    }
+}
+
+@media (max-width: 855px) {
+    .baner {
+        display: none;
+    }
+
+    .login {
+        display: none;
+    }
+}
